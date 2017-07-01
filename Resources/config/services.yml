@@ -1,0 +1,9 @@
+services:
+  #
+  # Instagram Tag Media Parser
+  #
+  instagram_parser.by_tag_name:
+    class: Mineur\InstagramParser\Instagram
+    factory: ['Mineur\InstagramParser\Instagram', createTagParser]
+    arguments:
+      - '%query_id%'
