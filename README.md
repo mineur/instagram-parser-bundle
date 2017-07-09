@@ -3,7 +3,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/mineur/instagram-parser-bundle/v/unstable)](https://packagist.org/packages/mineur/instagram-parser-bundle)
 [![Total Downloads](https://poser.pugx.org/mineur/instagram-parser-bundle/downloads)](https://packagist.org/packages/mineur/instagram-parser-bundle)
 
-A Symfony integration of Mineur Twitter Stream Library.
+A Symfony integration of Mineur Instagram Parser Library.
 
 ![](https://thumbs.gfycat.com/IcyImpossibleChrysomelid-size_restricted.gif)
 

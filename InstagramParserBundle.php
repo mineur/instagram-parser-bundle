@@ -9,7 +9,7 @@
  * @author alexhoma <alexcm.14@gmail.com>
  */
 
-namespace Mineur\TwitterStreamApiBundle;
+namespace Mineur\InstagramParserBundle;
 
 use Mineur\InstagramParserBundle\DependencyInjection\InstagramParserExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
