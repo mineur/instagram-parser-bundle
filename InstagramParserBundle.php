@@ -11,8 +11,9 @@
 
 namespace Mineur\InstagramParserBundle;
 
-use Mineur\InstagramParserBundle\DependencyInjection\InstagramParserExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+use Mineur\InstagramParserBundle\DependencyInjection\InstagramParserExtension;
 
 /**
  * Class InstagramParserBundle

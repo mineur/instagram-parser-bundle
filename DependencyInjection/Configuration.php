@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mineur/twitter-stream-api-bundle package
+ * Mineur/instagram-parser-bundle package
  *
  * Feel free to contribute!
  *
