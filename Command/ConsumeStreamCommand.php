@@ -69,10 +69,12 @@ class ConsumeStreamCommand extends Command
             ->getContainer()
             ->get('instagram_parser')
         ;
+        
         $instagramParser
             ->parse(
                 $input->getArgument('keyword'),
                 function(InstagramPost $post) {
+                    dump('hello');
                     dump($post);
                 }
             )
