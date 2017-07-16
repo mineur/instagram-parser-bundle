@@ -73,6 +73,7 @@ class EnqueueStreamCommand extends Command
             ->parse(
                 $input->getArgument('keyword'),
                 function(InstagramPost $post) {
+                    dump(' - Collected -> ' . $post->getId());
                     $this
                         ->getContainer()
                         ->get('rs_queue.producer')
